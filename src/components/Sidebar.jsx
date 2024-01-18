@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
 import Logo from "../imgs/logo.png";
-import { UilSignOutAlt } from "@iconscout/react-unicons";
+// import { UilSignOutAlt } from "@iconscout/react-unicons";
 import { SidebarData } from "../Data/Data";
 import { UilBars } from "@iconscout/react-unicons";
 import { motion } from "framer-motion";
@@ -33,7 +33,7 @@ const Sidebar = () => {
       <div className="logo">
         <img src={Logo} alt="logo" />
         <span>
-          Sh<span>o</span>ps
+          Code <br /> <span>Justice</span>
         </span>
       </div>
 
@@ -46,13 +46,15 @@ const Sidebar = () => {
               onClick={() => setSelected(index)}
             >
               <item.icon />
-              <span>{item.heading}</span>
+              
+              <span><a style={{textDecoration:'none',color:'inherit'}} href={item.url}>{item.heading}</a></span>
+
             </div>
           );
         })}
         {/* signoutIcon */}
         <div className="menuItem">
-          <UilSignOutAlt />
+          {/* <UilSignOutAlt /> */}
         </div>
       </div>
     </motion.div>
