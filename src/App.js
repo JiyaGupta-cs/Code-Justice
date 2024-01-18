@@ -1,24 +1,44 @@
 import './App.css'
+import Dashboard from './Dashboard';
 import MainDash from './components/MainDash/MainDash';
 import RightSide from './components/RigtSide/RightSide';
 import Sidebar from './components/Sidebar';
+import Leaderboard from './components/Leaderboard'
 import React from "react";
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Switch,
   Route,
-  Link
+  Link, Routes
 } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <div className="AppGlass">
-        <Sidebar/>
-        <MainDash/>
-        <RightSide/>
-      </div>
-    </div>
+    <>
+    <div>
+    <BrowserRouter>
+    {/* <Navbar/> */}
+    <Routes>
+      <Route path='/' element={<Dashboard/>} />
+      <Route path='/dashboard' element={<Dashboard/>} />
+      <Route path='/leaderboard' element={<Leaderboard/>} />
+      <Route path='/videos' element={<Leaderboard/>} />
+      <Route path='/rewards' element={<Leaderboard/>} />
+      <Route path='/create' element={<Dashboard/>} />
+      {/* <Route path='/women' element={<ShopCategory banner={women_banner} category="women"/>} />
+      <Route path='/kids' element={<ShopCategory banner={kids_banner} category="kids"/>} />
+      <Route path='/product' element={<Product/>}>
+        <Route path=':productId' element={<Product/>}/>
+      </Route>
+      <Route path='/cart' element={<Cart/>} />
+      <Route path='/login' element={<LoginSignup/>} /> */}
+    </Routes>
+    {/* <Footer/> */}
+    </BrowserRouter>
+    
+  </div>
+    
+    </>
   );
 }
 

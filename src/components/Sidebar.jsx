@@ -5,6 +5,7 @@ import Logo from "../imgs/logo.png";
 import { SidebarData } from "../Data/Data";
 import { UilBars } from "@iconscout/react-unicons";
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom'
 
 const Sidebar = () => {
   const [selected, setSelected] = useState(0);
@@ -47,7 +48,8 @@ const Sidebar = () => {
             >
               <item.icon />
               
-              <span><a style={{textDecoration:'none',color:'inherit'}} href={item.url}>{item.heading}</a></span>
+              {/* <span><a style={{textDecoration:'none',color:'inherit'}} href={item.url}>{item.heading}</a></span> */}
+              <span><Link style={{textDecoration:'none',color:'inherit'}} to={item.url}>{item.heading}</Link></span>
 
             </div>
           );

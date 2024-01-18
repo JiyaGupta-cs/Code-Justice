@@ -19,31 +19,43 @@ import img1 from "../imgs/img1.png";
 import img2 from "../imgs/img2.png";
 import img3 from "../imgs/img3.png";
 
+let baseUrl;
+
+// Check if the application is running in a local development environment
+if (process.env.NODE_ENV === 'development') {
+  baseUrl = 'http://localhost:3002'; // Set your local development URL
+} else {
+  // Use the URL of your deployed Vercel application
+  baseUrl = 'https://CodeJustice.vercel.app';
+}
 // Sidebar Data
 export const SidebarData = [
+  
   {
     icon: UilEstate,
     heading: "Dashboard",
-    url:'./Dashboard'
+    url:baseUrl + '/Dashboard'
   },
   {
     icon: UilVideo,
     heading: "Videos",
-    url:'./Videos'
+    url:baseUrl + '/Videos'
   },
-  // {
-  //   icon: UilUsersAlt,
-  //   heading: "Customers",
-  // },
+  
   {
     icon: UilUsdSquare,
     heading: 'Rewards',
-    url:'./Rewards'
+    url:baseUrl + '/Rewards'
   },
   {
     icon: UilChart,
     heading: 'Leaderboard',
-    url:'./Leaderboard'
+    url:baseUrl + '/Leaderboard'
+  },
+  {
+    icon: UilUsersAlt,
+    heading: "Create",
+    url:baseUrl + '/create'
   },
 ];
 
