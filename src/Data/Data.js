@@ -23,7 +23,7 @@ let baseUrl;
 
 // Check if the application is running in a local development environment
 if (process.env.NODE_ENV === 'development') {
-  baseUrl = 'http://localhost:3002'; // Set your local development URL
+  baseUrl = 'http://localhost:3000'; // Set your local development URL
 } else {
   // Use the URL of your deployed Vercel application
   baseUrl = 'https://CodeJustice.vercel.app';
