@@ -1,5 +1,3 @@
-import React, { useRef } from "https://cdn.skypack.dev/react@17.0.1";
-import ReactDOM from "https://cdn.skypack.dev/react-dom@17.0.1";
 import './Leaderboard.scss'
 import Sidebar from "./Sidebar";
 import { getByDisplayValue } from "@testing-library/react";
