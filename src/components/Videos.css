@@ -67,10 +67,10 @@ html, body{
 }
 
 .table-row__img{
-   width: 36px;
-    height: 36px;
+   width: 240px;
+    height: 140px;
     display: inline-block;
-    border-radius: 50%;
+    border-radius: 2%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -11,11 +11,11 @@ const Videos = () => {
         <Sidebar/>
         
 
-        <div classNameName="my-table">
+        <div  style={{marginLeft:'20%',marginTop:'3%'}} classNameName="my-table">
         <div className="container">
   <div className="row row--top-40">
     <div className="col-md-12">
-      <h2 className="row__title">Employees (7)</h2>
+      <h2 className="row__title" style={{fontWeight:'bolder'}}> Videos </h2>
     </div>
   </div>
   <div className="row row--top-20">
@@ -24,29 +24,33 @@ const Videos = () => {
         <table className="table">
           <thead className="table__thead">
             <tr>
-              <th className="table__th"><input id="selectAll" type="checkbox" className="table__select-row"/></th>
+              {/* <th className="table__th"><input id="selectAll" type="checkbox" className="table__select-row"/></th> */}
+              <th className="table__th">Video</th>
               <th className="table__th">Name</th>
               <th className="table__th">Policy</th>
               <th className="table__th">Policy status</th>
               <th className="table__th">Destination</th>
               <th className="table__th">Status</th>
               <th className="table__th">Progress</th>
-              <th className="table__th"></th>
+              {/* <th className="table__th"></th> */}
             </tr>
           </thead>
           <tbody className="table__tbody">
            
             <tr className="table-row table-row--red table-row--natalie ">
-              <td className="table-row__td">
+              {/* <td className="table-row__td">
                 <div className="table-row--overdue"></div>
                 <input id="" type="checkbox" className="table__select-row"/>
-              </td>
+              </td> */}
               <td className="table-row__td">
                 <div className="table-row__img"></div>
-                <div className="table-row__info">
+                
+              </td>
+              <td className="table-row__td">
+              <div className="table-row__info">
                   <p className="table-row__name">Natalie Quest</p>
                   <span className="table-row__small">Social content manager</span>
-                </div>
+                </div>         
               </td>
               <td className="table-row__td">
                 <div className="">
@@ -80,15 +84,18 @@ const Videos = () => {
             
                         
             <tr className="table-row table-row--thomas">
-              <td className="table-row__td">
+              {/* <td className="table-row__td">
                 <input id="" type="checkbox" className="table__select-row"/>
-              </td>
+              </td> */}
               <td className="table-row__td">
                 <div className="table-row__img"></div>
-                <div className="table-row__info">
+                
+              </td>
+              <td className="table-row__td">
+                     <div className="table-row__info">
                   <p className="table-row__name">Thomas Perez</p>
                   <span className="table-row__small">CEO</span>
-                </div>
+                </div>         
               </td>
               <td className="table-row__td">
                 <div className="">

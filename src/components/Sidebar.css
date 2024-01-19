@@ -18,15 +18,16 @@
   gap: 1rem;
   align-items: center;
   justify-content: center;
-  height: 4%;
+  height: 12%;
 }
 .logo > span > span {
   color: var(--pink);
 }
 
 .logo > img {
-  width: 3rem;
-  height: 3rem;
+  width: 8rem;
+  height: 8rem;
+  /* margin: 40rem 0; */
 }
 
 
