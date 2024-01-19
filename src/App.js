@@ -4,6 +4,7 @@ import MainDash from './components/MainDash/MainDash';
 import RightSide from './components/RigtSide/RightSide';
 import Sidebar from './components/Sidebar';
 import Leaderboard from './components/Leaderboard'
+import Videos from './components/Videos'
 import React from "react";
 import {
   BrowserRouter,
@@ -22,7 +23,7 @@ function App() {
       <Route path='/' element={<Dashboard/>} />
       <Route path='/dashboard' element={<Dashboard/>} />
       <Route path='/leaderboard' element={<Leaderboard/>} />
-      <Route path='/videos' element={<Leaderboard/>} />
+      <Route path='/videos' element={<Videos/>} />
       <Route path='/rewards' element={<Leaderboard/>} />
       <Route path='/create' element={<Dashboard/>} />
       {/* <Route path='/women' element={<ShopCategory banner={women_banner} category="women"/>} />
