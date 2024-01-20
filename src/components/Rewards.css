@@ -1,14 +1,16 @@
-figure {
+.rfigure {
     display: grid;
     border-radius: 1rem;
     overflow: hidden;
     cursor: pointer;
+    /* background-color: pink; */
   }
-  figure > * {
+  .rfigure > * {
     grid-area: 1/1;
     transition: .4s;
+    /* border: 2px solid black; */
   }
-  figure figcaption {
+  .rfigure figcaption {
     display: grid;
     align-items: end;
     font-family: sans-serif;
@@ -25,14 +27,14 @@ figure {
     -webkit-mask-clip: text, padding-box;
     margin: -1px;
   }
-  figure:hover figcaption{
+  .rfigure:hover figcaption{
     --_i: 0%;
   }
-  figure:hover img {
+  .rfigure:hover img {
     transform: scale(1.2);
   }
   @supports not (-webkit-mask-clip: text) {
-    figure figcaption {
+    .rfigure figcaption {
      -webkit-mask: none;
      color: #fff;
     }

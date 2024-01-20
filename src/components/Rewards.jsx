@@ -37,23 +37,23 @@ const Rewards = () => {
     <h2>Hot Deals Of the Day</h2>
         <div className="r1" style={{marginTop:'2rem'}}>
             
-        <figure>
+        <figure className="rfigure">
     <img src="https://picsum.photos/id/287/250/300" alt="Mountains"/>
     <figcaption>The Day</figcaption>
 </figure>
-<figure  >
+<figure className="rfigure"  >
     <img src="https://picsum.photos/id/475/250/300" alt="Mountains"/>
     <figcaption>The Night</figcaption>
 </figure>
-<figure>
+<figure className="rfigure">
     <img src="https://picsum.photos/id/287/250/300" alt="Mountains"/>
     <figcaption>The Day</figcaption>
 </figure>
-<figure  >
+<figure className="rfigure"  >
     <img src="https://picsum.photos/id/475/250/300" alt="Mountains"/>
     <figcaption>The Night</figcaption>
 </figure>
-<figure  >
+<figure className="rfigure"  >
     <img src="https://picsum.photos/id/475/250/300" alt="Mountains"/>
     <figcaption>The Night</figcaption>
 </figure>

@@ -22,29 +22,23 @@ const Filters = () => {
             <div className='AppGlass'>
                 <Sidebar />
                 
-                <div>
+                <div style={{position:'absolute',right:'30%'}}>
                 <div className="filters_section">
                 <figure class="icon-cards mt-3">
                     <div class="icon-cards__content">
                         <div class="icon-cards__item d-flex align-items-center justify-content-center">
                             <a target='blank' href="https://www.snapchat.com/lens/6a483d9fc80249089058f81520d7c7e0?sender_web_id=2e335d0b-1ca8-43d3-85f4-790245bae120&device_type=desktop&is_copy_url=true">
-                                <span class="h1">
+                                <span class="fh1">
                                     <img src={filter1} alt="" className='card-img' />
                                 </span></a>
                         </div>
-                        <div class="icon-cards__item d-flex align-items-center justify-content-center"><span class="h1">
+                        <div class="icon-cards__item d-flex align-items-center justify-content-center"><span class="fh1">
                             <img src={filter2} alt="" className='card-img' />
                         </span></div>
-                        <div class="icon-cards__item d-flex align-items-center justify-content-center"><span class="h1"><img src={filter3} alt="" className='card-img' /></span></div>
+                        <div class="icon-cards__item d-flex align-items-center justify-content-center"><span class="fh1"><img src={filter3} alt="" className='card-img' /></span></div>
 
                     </div>
                 </figure>
-
-                {/* <div class="checkbox">
-  <input class="d-none" id="toggle-animation" type="checkbox" checked />
-  <label class="checkbox__checkbox" for="toggle-animation"></label>
-  <label class="checkbox__label" for="toggle-animation">Toggle animation</label>
-</div> */}
 
             </div>
                 </div>
