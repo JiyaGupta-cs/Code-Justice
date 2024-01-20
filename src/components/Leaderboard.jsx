@@ -6,202 +6,138 @@ const Leaderboard = () => {
  const dados = [
   {
     id: 1,
-    name: 'Laura',
+    name: 'Jiya',
     image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
-    level: 16,
+    level: 2,
     xp: 100,
     coins: 500,
-    love: 6,
+    love: '60 K',
     beacons: 2,
     resources: 70,
   },
   {
     id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
-    level: 16,
+    name: 'Sarvin',
+    image: 'https://cdn-icons-png.flaticon.com/512/186/186038.png',
+    level: 4,
     xp: 100,
     coins: 500,
-    love: 6,
+    love: '58 K',
     beacons: 2,
-    resources: 70,
+    resources: 55,
   },
   {
     id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
-    level: 16,
+    name: 'Abhishek',
+    image: 'https://cdn-icons-png.flaticon.com/512/186/186036.png',
+    level: 5,
     xp: 100,
     coins: 500,
-    love: 6,
+    love: '45 K',
     beacons: 2,
-    resources: 70,
+    resources: 51,
   },
   {
     id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
-    level: 16,
+    name: 'Kiran Kapoor',
+    image: 'https://cdn-icons-png.flaticon.com/512/186/186039.png',
+    level: 8,
     xp: 100,
     coins: 500,
-    love: 6,
+    love: '40 K',
     beacons: 2,
-    resources: 70,
+    resources: 56,
   },
   {
     id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
-    level: 16,
+    name: 'Yogita Mittal',
+    image: 'https://cdn-icons-png.flaticon.com/512/186/186038.png',
+    level: 9,
     xp: 100,
     coins: 500,
-    love: 6,
+    love: '39 K',
     beacons: 2,
-    resources: 70,
+    resources: 41,
   },
   {
     id: 1,
-    name: 'Laura',
+    name: 'Nandini Singh',
     image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
-    level: 16,
+    level: 12,
     xp: 100,
     coins: 500,
-    love: 6,
+    love: '28 K',
     beacons: 2,
-    resources: 70,
+    resources: 39,
   },
   {
     id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
+    name: 'Devanshi Bansal',
+    image: 'https://cdn-icons-png.flaticon.com/512/186/186036.png',
     level: 16,
     xp: 100,
     coins: 500,
-    love: 6,
+    love: '26 K',
     beacons: 2,
-    resources: 70,
+    resources: 35,
   },
   {
     id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
+    name: 'Atharva Malik',
+    image: 'https://cdn-icons-png.flaticon.com/512/186/186039.png',
     level: 16,
     xp: 100,
     coins: 500,
-    love: 6,
+    love: '25 K',
     beacons: 2,
-    resources: 70,
+    resources: 34,
   },
   {
     id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
+    name: 'Yash Tyagi',
+    image: 'https://cdn-icons-png.flaticon.com/512/186/186038.png',
     level: 16,
     xp: 100,
     coins: 500,
-    love: 6,
+    love: '23 K',
     beacons: 2,
-    resources: 70,
+    resources: 33,
   },
   {
     id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
+    name: 'Disha Gangwar',
+    image: 'https://cdn-icons-png.flaticon.com/512/186/186036.png',
     level: 16,
     xp: 100,
     coins: 500,
-    love: 6,
+    love: '22 K',
     beacons: 2,
-    resources: 70,
+    resources: 31,
   },
   {
     id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
+    name: 'Sanchita Jha',
+    image: 'https://cdn-icons-png.flaticon.com/512/186/186039.png',
     level: 16,
     xp: 100,
     coins: 500,
-    love: 6,
+    love: '18 K',
     beacons: 2,
-    resources: 70,
+    resources: 30,
   },
   {
     id: 1,
-    name: 'Laura',
+    name: 'Pranjali Singh',
     image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
     level: 16,
     xp: 100,
     coins: 500,
-    love: 6,
+    love: '16 K',
     beacons: 2,
-    resources: 70,
-  },
-  {
-    id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
-    level: 16,
-    xp: 100,
-    coins: 500,
-    love: 6,
-    beacons: 2,
-    resources: 70,
-  },
-  {
-    id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
-    level: 16,
-    xp: 100,
-    coins: 500,
-    love: 6,
-    beacons: 2,
-    resources: 70,
-  },
-  {
-    id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
-    level: 16,
-    xp: 100,
-    coins: 500,
-    love: 6,
-    beacons: 2,
-    resources: 70,
-  },
-  {
-    id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
-    level: 16,
-    xp: 100,
-    coins: 500,
-    love: 6,
-    beacons: 2,
-    resources: 70,
-  },
-  {
-    id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
-    level: 16,
-    xp: 100,
-    coins: 500,
-    love: 6,
-    beacons: 2,
-    resources: 70,
-  },
-  {
-    id: 1,
-    name: 'Laura',
-    image: 'https://cdn-icons-png.flaticon.com/512/186/186037.png',
-    level: 16,
-    xp: 100,
-    coins: 500,
-    love: 6,
-    beacons: 2,
-    resources: 70,
-  },
+    resources: 21,
+  }
+   
+ 
 ];
   return (
     <>
@@ -246,7 +182,7 @@ const Leaderboard = () => {
           
             <div>LVL</div>
           
-            <div>XP</div>
+            {/* <div>XP</div> */}
           
             <div>
               Coins
@@ -256,12 +192,12 @@ const Leaderboard = () => {
               Likes
             </div>
           
-            <div>
+            {/* <div>
               Pass
-            </div>
+            </div> */}
           
             <div>
-              Resources
+              Video Count
             </div>
           
         </div>
@@ -274,10 +210,10 @@ const Leaderboard = () => {
                 <span> {leader.name} </span>
               </div>
               <span> {leader.level} </span>
-              <span> {leader.xp} </span>
+              {/* <span> {leader.xp} </span> */}
               <span> {leader.coins} </span>
               <span> {leader.love} </span>
-              <span> {leader.beacons} </span>
+              {/* <span> {leader.beacons} </span> */}
               <span> {leader.resources} </span>
             </div>
           ))}

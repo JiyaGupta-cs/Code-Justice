@@ -196,7 +196,7 @@
   .player {
     background-color: #330b7775;
     display: grid;
-    grid-template-columns: 0.4fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.4fr 3fr 1fr 1fr 1fr 1fr ;
 
     align-items: center;
     min-height: 42px;
@@ -214,7 +214,7 @@
     margin-right: 0.1rem;
     display: grid;
     font-size: 14px;
-    grid-template-columns: 0.4fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.4fr 3fr 1fr 1fr 1fr 1fr ;
     text-align: center;
 
     div:nth-child(2) {
