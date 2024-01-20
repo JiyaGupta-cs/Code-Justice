@@ -64,6 +64,11 @@ html, body{
   position:relative;
     line-height: 18px !important;
   border:0 !important;
+  min-width: 100px;
+  text-align: center;
+}
+.t-align{
+  text-align: left !important;
 }
 
 .table-row__img{
@@ -77,32 +82,13 @@ html, body{
    vertical-align: middle;
 }
 
-.table-row--chris .table-row__img {
-    background-image: url('https://images.pexels.com/photos/428333/pexels-photo-428333.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
-}
-
-.table-row--angie .table-row__img {
-    background-image: url('https://images.pexels.com/photos/785667/pexels-photo-785667.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
-}
-
-.table-row--ronald .table-row__img {
-    background-image: url('https://images.pexels.com/photos/211050/pexels-photo-211050.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
-}
-
-.table-row--june .table-row__img {
-    background-image: url('https://images.pexels.com/photos/709802/pexels-photo-709802.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
-}
-
-.table-row--ben .table-row__img {
-    background-image: url('https://images.pexels.com/photos/736716/pexels-photo-736716.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
-}
 
 .table-row--natalie .table-row__img {
-    background-image: url('https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+    background-image: url('https://raw.githubusercontent.com/karimifar/25drugs/master/thumbnail.jpg');
 }
 
 .table-row--thomas .table-row__img {
-    background-image: url('https://images.pexels.com/photos/415326/pexels-photo-415326.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+    background-image: url('https://www.opiates.com/wp-content/uploads/2013/09/drug-addiction.jpg');
 }
 
 
@@ -271,6 +257,29 @@ html, body{
 .table-row--red {
     background-color: #fff2f2;
 }
+
+
+
+
+
+.table{
+  width: 100%;
+}
+.my-table{
+  width: 70vw;
+}
+.t-container{
+  width: 65vw;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 991px){
   .table__thead {
