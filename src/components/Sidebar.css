@@ -50,6 +50,10 @@
   font-size: 14px;
 }
 
+.menuItem > a {
+  width: 100% !important;
+}
+
 .menuItem:hover {
   cursor: pointer;
 }

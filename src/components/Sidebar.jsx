@@ -41,17 +41,26 @@ const Sidebar = () => {
       <div className="menu">
         {SidebarData.map((item, index) => {
           return (
+          
+            
             <div
               className={selected === index ? "menuItem active" : "menuItem"}
               key={index}
               onClick={() => setSelected(index)}
             >
+              <Link style={{textDecoration:'none',color:'inherit'}} to={item.url}>
+                <div style={{    display: 'flex',    alignItems: 'center',    gap: '10px'}}>
               <item.icon />
               
               {/* <span><a style={{textDecoration:'none',color:'inherit'}} href={item.url}>{item.heading}</a></span> */}
-              <span><Link style={{textDecoration:'none',color:'inherit'}} to={item.url}>{item.heading}</Link></span>
-
+              <span>
+                <Link style={{textDecoration:'none',color:'inherit'}} to={item.url}>{item.heading}</Link>
+                </span>
+                </div>
+                </Link>
             </div>
+            
+          
           );
         })}
         {/* signoutIcon */}
