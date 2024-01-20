@@ -27,7 +27,7 @@ function App() {
       <Route path='/leaderboard' element={<Leaderboard/>} />
       <Route path='/videos' element={<Videos/>} />
       <Route path='/rewards' element={<Leaderboard/>} />
-      <Route path='/create' element={<Dashboard/>} />
+      {/* <Route path='/create' element={<Dashboard/>} /> */}
       <Route path='/filters' element={<Filters/>} />
       <Route path='/create' element={<Create/>} />
       {/* <Route path='/filters' element={<Filters/>} /> */}
