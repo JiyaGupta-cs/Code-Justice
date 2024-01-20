@@ -14,6 +14,7 @@ import {
 } from "react-router-dom";
 import Filters from './components/Filters';
 import Create from './components/Create';
+import Rewards from './components/Rewards';
 
 function App() {
   return (
@@ -26,11 +27,11 @@ function App() {
       <Route path='/dashboard' element={<Dashboard/>} />
       <Route path='/leaderboard' element={<Leaderboard/>} />
       <Route path='/videos' element={<Videos/>} />
-      <Route path='/rewards' element={<Leaderboard/>} />
+      {/* <Route path='/rewards' element={<Leaderboard/>} /> */}
       {/* <Route path='/create' element={<Dashboard/>} /> */}
       <Route path='/filters' element={<Filters/>} />
       <Route path='/create' element={<Create/>} />
-      {/* <Route path='/filters' element={<Filters/>} /> */}
+      <Route path='/rewards' element={<Rewards/>} />
       {/* <Route path='/women' element={<ShopCategory banner={women_banner} category="women"/>} />
       <Route path='/kids' element={<ShopCategory banner={kids_banner} category="kids"/>} />
       <Route path='/product' element={<Product/>}>

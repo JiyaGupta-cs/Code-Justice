@@ -34,23 +34,23 @@ export const SidebarData = [
   {
     icon: UilEstate,
     heading: "Dashboard",
-    url:baseUrl + '/Dashboard'
+    url:baseUrl + '/dashboard'
   },
   {
     icon: UilVideo,
     heading: "Videos",
-    url:baseUrl + '/Videos'
+    url:baseUrl + '/videos'
   },
   
   {
     icon: UilUsdSquare,
     heading: 'Rewards',
-    url:baseUrl + '/Rewards'
+    url:baseUrl + '/rewards'
   },
   {
     icon: UilChart,
     heading: 'Leaderboard',
-    url:baseUrl + '/Leaderboard'
+    url:baseUrl + '/leaderboard'
   },
   {
     icon: UilUsersAlt,
@@ -62,6 +62,7 @@ export const SidebarData = [
     heading: "AR Filters",
     url:baseUrl + '/filters'
   },
+  
 ];
 
 // Analytics Cards Data
