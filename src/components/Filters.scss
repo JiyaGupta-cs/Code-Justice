@@ -45,8 +45,8 @@
           left: 0;
       right: 0;
       bottom: 0;
-          width: 21.5vw;
-          height: 35vw;
+          width: 30vw;
+          height: 36vw;
       max-width: 348px;
       // max-height: 475px;
       box-shadow: 0 5px 20px rgba(0,0,0,.1);
@@ -90,52 +90,13 @@
   // }
   
   .filters_section {
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    // flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     // background: #110F15;
-    position: absolute;
-    right: 30%;
-    bottom: 5%;
     height: 85vh;
   }
-  @media only screen and (max-width: 600px) {
-    .filters_section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        // background: #110F15;
-        
-        height: 85vh;
-        position: static;
-      }
-
-      .icon-cards{
-      &__item {
-        position: absolute;
-        top: 0;
-        left: 0;
-    right: 0;
-    bottom: 0;
-        width: 48.5vw;
-        height: 75vw;
-    max-width: 348px;
-    // max-height: 475px;
-    box-shadow: 0 5px 20px rgba(0,0,0,.1);
-        border-radius: 6px;
-    transform-origin: center;
-    padding: 1.5vw;
-      }
-  }
-  .icon-cards .card-img {
-    width: 48vw;
-    height: 73vw;
-    // max-width: 330px;
-    // padding-left: 0 !important;
-}
-}
   
   // Checkbox
   
