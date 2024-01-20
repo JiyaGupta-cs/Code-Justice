@@ -57,6 +57,11 @@ export const SidebarData = [
     heading: "Create",
     url:baseUrl + '/create'
   },
+  {
+    icon: UilUsersAlt,
+    heading: "AR Filters",
+    url:baseUrl + '/filters'
+  },
 ];
 
 // Analytics Cards Data
