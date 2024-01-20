@@ -48,7 +48,7 @@ const Videos = () => {
                           </td>
                           <td className="table-row__td">
                             <div className="">
-                              <p className="table-row__policy">$30,000</p>
+                              <p className="table-row__policy">$200</p>
                               {/* <span className="table-row__small">All Inclusive Policy</span> */}
                             </div>
                           </td>
@@ -58,7 +58,7 @@ const Videos = () => {
                           </td>
                           
                           <td className="table-row__td">
-                            <p className="table-row__progress status--red status">Rejected</p>
+                            <p className="table-row__progress status--green status">Approved</p>
                           </td>
                           
                         </tr>
@@ -78,7 +78,7 @@ const Videos = () => {
                           </td>
                           <td className="table-row__td">
                             <div className="">
-                              <p className="table-row__policy">$45,000</p>
+                              <p className="table-row__policy">$0</p>
                               {/* <span className="table-row__small">All Inclusive Policy</span> */}
                             </div>
                           </td>
@@ -88,10 +88,40 @@ const Videos = () => {
                           </td>
                          
                           <td className="table-row__td">
-                            <p className="table-row__progress status status--green">Approved</p>
+                            <p className="table-row__progress status status--red">Rejected</p>
                           </td>
                           
                         </tr>
+
+                        <tr className="table-row table-row--red table-row--na">
+                          <td className="table-row__td">
+                            <div className="table-row__img"></div>
+
+                          </td>
+                          <td className="table-row__td  t-align">
+                            <div className="table-row__info">
+                              <p className="table-row__name">Natallie Quest Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quia.</p>
+                              {/* <span className="table-row__small">Social content manager</span> */}
+                            </div>
+                          </td>
+                          <td className="table-row__td">
+                            <div className="">
+                              <p className="table-row__policy">$30</p>
+                              {/* <span className="table-row__small">All Inclusive Policy</span> */}
+                            </div>
+                          </td>
+                        
+                          <td className="table-row__td">
+                            28K
+                          </td>
+                          
+                          <td className="table-row__td">
+                            <p className="table-row__progress status--green status">Approved</p>
+                          </td>
+                          
+                        </tr>
+
+
                       </tbody>
                     </table>
                   </div>
