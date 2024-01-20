@@ -84,11 +84,15 @@ html, body{
 
 
 .table-row--natalie .table-row__img {
-    background-image: url('https://raw.githubusercontent.com/karimifar/25drugs/master/thumbnail.jpg');
+    background-image: url('https://i.ytimg.com/vi/wGw85TCHm1E/mqdefault.jpg');
 }
 
 .table-row--thomas .table-row__img {
     background-image: url('https://www.opiates.com/wp-content/uploads/2013/09/drug-addiction.jpg');
+}
+
+.table-row--n .table-row__img {
+  background-image: url('https://anchoredtidesrecovery.com/wp-content/uploads/2021/11/W3.jpeg');
 }
 
 

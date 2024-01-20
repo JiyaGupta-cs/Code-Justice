@@ -11,7 +11,7 @@ const Videos = () => {
           <Sidebar />
 
 
-          <div style={{ marginLeft: '10%', marginTop: '3%' }} classNameName="my-table">
+          <div style={{ marginLeft: '15%', marginTop: '3%' }} classNameName="my-table">
             <div className="t-container">
               <div className="row row--top-40">
                 <div className="col-md-6">
@@ -42,7 +42,7 @@ const Videos = () => {
                           </td>
                           <td className="table-row__td  t-align">
                             <div className="table-row__info">
-                              <p className="table-row__name">Natallie Quest Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quia.</p>
+                              <p className="table-row__name">Nasha-Free Zindagi: The Journey of Transformation Towards a Drug-Free Life</p>
                               {/* <span className="table-row__small">Social content manager</span> */}
                             </div>
                           </td>
@@ -72,7 +72,7 @@ const Videos = () => {
                           </td>
                           <td className="table-row__td  t-align">
                             <div className="table-row__info">
-                              <p className="table-row__name">Thomas Perez</p>
+                              <p className="table-row__name">Zindagi Rocks Without Drugs: Inspiring Stories of Recovery and the Power of Sobriety</p>
                               {/* <span className="table-row__small">CEO</span> */}
                             </div>
                           </td>
@@ -93,14 +93,14 @@ const Videos = () => {
                           
                         </tr>
 
-                        <tr className="table-row table-row--red table-row--na">
+                        <tr className="table-row table-row--red table-row--n">
                           <td className="table-row__td">
                             <div className="table-row__img"></div>
 
                           </td>
                           <td className="table-row__td  t-align">
                             <div className="table-row__info">
-                              <p className="table-row__name">Natallie Quest Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quia.</p>
+                              <p className="table-row__name">Nasha Se Mukt, Life Se Connected: Stories of Reconnection with Life Post-Addiction</p>
                               {/* <span className="table-row__small">Social content manager</span> */}
                             </div>
                           </td>
