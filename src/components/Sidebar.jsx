@@ -32,7 +32,10 @@ const Sidebar = () => {
     >
       {/* logo */}
       <div className="logo">
-        <img src={Logo} alt="logo" />
+      <Link style={{textDecoration:'none',color:'inherit'}} to={"../"}>
+        <img className="cimg" src={Logo} alt="logo" />
+        </Link>
+
         {/* <span>
           Code <br /> <span>Justice</span>
         </span> */}

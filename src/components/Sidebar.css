@@ -24,7 +24,7 @@
   color: var(--pink);
 }
 
-.logo > img {
+.cimg {
   width: 7rem;
   height: 7rem;
   /* margin: 40rem 0; */

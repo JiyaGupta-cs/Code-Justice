@@ -1,11 +1,12 @@
 .open-button {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #FCD4CC;
     color: rgb(0, 0, 0);
     padding: 16px 20px;
     /* margin-left: 5px; */
     /* font-size: medium; */
     margin-top: 20px;
-    width: 200px;
+    width: 280px;
     border: none;
       border-radius: 25px;
     cursor: pointer;
@@ -30,9 +31,9 @@
   /* Add styles to the form container */
   .form-container {
     max-width: 300px;
-    padding: 10px;
+    padding: 20px 10px;
     margin-top: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: #FCD4CC;
     border-radius: 25px;
   }
   
