@@ -22,7 +22,7 @@ const Filters = () => {
             <div className='AppGlass'>
                 <Sidebar />
                 
-                <div style={{position:'absolute',right:'30%'}}>
+                <div className='filtercustom' style={{position:'absolute',right:'30%'}}>
                 <div className="filters_section">
                 <figure class="icon-cards mt-3">
                     <div class="icon-cards__content">

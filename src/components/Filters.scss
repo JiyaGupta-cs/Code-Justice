@@ -177,3 +177,31 @@
     75% { transform: scale(1.05, 0.95); }
     to { transform: scale(1, 1); }
   }
+
+
+
+
+
+  @media screen and (max-width: 768px) {
+
+
+
+
+
+  .icon-cards {
+ 
+    &__item {
+    
+          width: 80vw;
+          height: 110vw;
+    }
+  }
+  .icon-cards .card-img {
+    width: 78vw;
+    height: 108vw;
+    margin-left: 1vw 
+}
+.filtercustom{
+  right: 20% !important;
+}
+  }
