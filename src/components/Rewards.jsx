@@ -35,7 +35,7 @@ const Rewards = () => {
             </div>
             <div className="coinbox" style={{marginTop:'3rem'}}>
             <img width='250px' src="https://www.onlygfx.com/wp-content/uploads/2020/11/stack-of-gold-coins-5.png" alt="" />
-            <h2 style={{marginTop:'1rem'}}>Coins Earned : 3000</h2>
+            <h2 style={{marginTop:'1rem'}}>Coins Earned : <span style={{backgroundColor:"#FCD4CC", padding:'0.1rem' , padding: '0.3rem', borderRadius: '8%' }}> 3000</span></h2>
             </div>
             
         </div>
