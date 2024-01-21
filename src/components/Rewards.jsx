@@ -2,6 +2,11 @@ import React from 'react'
 import Sidebar from './Sidebar'
 import './Rewards.css'
 // import './Assets'
+import r1 from '../imgs/r1.png'
+import r2 from '../imgs/r2.png'
+import r3 from '../imgs/r3.png'
+import r4 from '../imgs/r4.png'
+import r5 from '../imgs/r5.png'
 
 const Rewards = () => {
   return (
@@ -40,23 +45,23 @@ const Rewards = () => {
         <div className="r1" style={{marginTop:'2rem'}}>
             
         <figure className="rfigure">
-    <img src=".\" width="250px" height="300px" alt="Mountains" />
+    <img src={r1} width="250px" height="300px" alt="Mountains" />
     <figcaption>Canon Mini 611</figcaption>
 </figure>
 <figure className="rfigure"  >
-    <img src="src\components\Assets\Screenshot_2024-01-21-12-58-52-16 (1).png"  width="250px" height="300px" alt="Mountains"/>
+    <img src={r2}  width="250px" height="300px" alt="Mountains"/>
     <figcaption>Nike Max 2</figcaption>
 </figure>
 <figure className="rfigure">
-    <img src="src\components\Assets\Screenshot_2024-01-21-12-59-01-38 (1).png"  width="250px" height="300px" alt="Mountains"/>
+    <img src={r3}  width="250px" height="300px" alt="Mountains"/>
     <figcaption>Hublot X</figcaption>
 </figure>
 <figure className="rfigure"  >
-    <img src="src\components\Assets\Screenshot_2024-01-21-12-59-01-39 (1).png"  width="px" height="300px" alt="Mountains"/>
+    <img src={r4}  width="px" height="300px" alt="Mountains"/>
     <figcaption>Amazon Gift card</figcaption>
 </figure>
 <figure className="rfigure"  >
-    <img src="src\components\Assets\Screenshot_2024-01-21-12-59-07-74 (1).png"   height="300px" alt="Mountains"/>
+    <img src={r5}   height="300px" alt="Mountains"/>
     <figcaption>H&M Gift card</figcaption>
 </figure>
 
