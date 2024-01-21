@@ -72,3 +72,38 @@
 .rewardcontent{
     width: 55vw;
 }
+
+@media screen and (max-width: 680px){
+.coinreward{
+flex-direction: column;}
+.rewardpage{
+  width: 100vw;
+}
+.rewardcontent {
+  width: 83vw;
+  
+}
+.coinreward{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem !important;
+}
+.r1{
+  grid-auto-flow: row;
+  gap: 0rem;
+}
+.rewards{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rfigure{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+}
