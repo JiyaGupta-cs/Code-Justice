@@ -1,0 +1,61 @@
+from flask import Flask, request, jsonify
+from bs4 import BeautifulSoup
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+import re
+import requests
+
+app = Flask(__name__)
+
+# Global stemmer for efficient reuse
+stemmer = PorterStemmer()
+
+# Function to extract text content from a URL
+def extract_text_from_url(url, retry_count=3, cache={}):
+    # ... (same as provided in the original code)
+
+# Function to preprocess text with advanced cleaning and stemming
+def preprocess_text(text):
+    # ... (same as provided in the original code)
+
+# Function to calculate TF-IDF similarity
+def calculate_similarity(text1, text2):
+    # ... (same as provided in the original code)
+
+# API endpoint to extract text from a URL
+@app.route('/extract-text', methods=['POST'])
+def extract_text_endpoint():
+    data = request.get_json()
+    url = data.get('url')
+
+    if not url:
+        return jsonify({'error': 'URL not provided'}), 400
+
+    text_content = extract_text_from_url(url)
+    
+    if text_content is None:
+        return jsonify({'error': 'Error extracting text from URL'}), 500
+
+    preprocessed_text = preprocess_text(text_content)
+    return jsonify({'text': preprocessed_text})
+
+# API endpoint to calculate TF-IDF similarity
+@app.route('/calculate-similarity', methods=['POST'])
+def calculate_similarity_endpoint():
+    data = request.get_json()
+    text1 = data.get('text1')
+    text2 = data.get('text2')
+
+    if not text1 or not text2:
+        return jsonify({'error': 'Text1 or Text2 not provided'}), 400
+
+    preprocessed_text1 = preprocess_text(text1)
+    preprocessed_text2 = preprocess_text(text2)
+
+    similarity_score = calculate_similarity(preprocessed_text1, preprocessed_text2)
+    return jsonify({'similarity': similarity_score})
+
+if __name__ == '__main__':
+    app.run(debug=True)
