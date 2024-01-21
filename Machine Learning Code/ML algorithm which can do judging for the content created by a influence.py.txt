@@ -1,0 +1,41 @@
+import re
+import requests
+from bs4 import BeautifulSoup
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+from nltk.stem import PorterStemmer
+
+# Global stemmer for efficient reuse
+stemmer = PorterStemmer()
+
+# Function to extract text content from a URL with robust error handling and caching
+def extract_text_from_url(url, retry_count=3, cache={}):
+    if url in cache:
+        return cache[url]
+
+    for _ in range(retry_count):
+        try:
+            response = requests.get(url, timeout=10)  # Set a timeout for requests
+            soup = BeautifulSoup(response.text, 'html.parser')
+            paragraphs = soup.find_all('p')
+            text_content = ' '.join([p.get_text() for p in paragraphs])
+            cache[url] = text_content
+            return text_content
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching URL {url}: {e}")
+    return None
+
+# Function to preprocess text with advanced cleaning and stemming
+def preprocess_text(text):
+    # Comprehensive cleaning
+    text = re.sub(r'<[^>]+>|[^\w\s]', '', text)  # Remove HTML tags and non-alphanumeric/whitespace
+    text = re.sub(r'\s+', ' ', text)  # Collapse multiple whitespaces
+    text = text.lower()
+    text = stemmer.stem(text)  # Apply stemming to the entire text
+    return text
+
+# Function to calculate TF-IDF similarity with optimized vectorizer usage
+def calculate_similarity(text1, text2):
+    vectorizer = TfidfVectorizer(stop_words=stopwords.words('english'))
+    tfidf_matrix = vectorizer.fit_transform([text1, text2])
+    return cosine_similarity(tfidf_matrix)[0, 1]  # Access similarity directly
