@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import './Rewards.css'
+// import './Assets'
 
 const Rewards = () => {
   return (
@@ -16,11 +17,12 @@ const Rewards = () => {
 <div className="rUpdates">
       
           <div className="rupdate" >
-           <h1>Claim Your Coins</h1>
-           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque autem minima quae ratione eius voluptatum similique iure veniam, harum deleniti iusto vel aperiam, repudiandae quisquam. Hic, et? Consequatur nulla velit error veniam illo corrupti dolorem, deserunt laboriosam laudantium non quas maxime omnis qui? Reprehenderit quia molestias itaque voluptatum in doloribus?</p>
-           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, aliquid. Incidunt minus neque debitis doloribus quod nostrum similique officia. Nisi.</p>
-           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, laudantium?</p>
-           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, laudantium?</p>
+           <h1>Claim Your Rewards in 5 simple steps ✨</h1>
+           <h4>1. Copy the link of your Anti-drug social media video.</h4>
+           <h4>2. Paste it on the Upload link popup.</h4>
+           <h4>3. Wait till your video gets approved.</h4>
+           <h4>4. Earn Points based on your reach, influence and Quality.</h4>
+           <h4>5. Redeem Various Rewards through your earned coins.</h4>
             </div>
         
     </div>
@@ -38,24 +40,24 @@ const Rewards = () => {
         <div className="r1" style={{marginTop:'2rem'}}>
             
         <figure className="rfigure">
-    <img src="https://picsum.photos/id/287/250/300" alt="Mountains"/>
-    <figcaption>The Day</figcaption>
+    <img src=".\" width="250px" height="300px" alt="Mountains" />
+    <figcaption>Canon Mini 611</figcaption>
 </figure>
 <figure className="rfigure"  >
-    <img src="https://picsum.photos/id/475/250/300" alt="Mountains"/>
-    <figcaption>The Night</figcaption>
+    <img src="src\components\Assets\Screenshot_2024-01-21-12-58-52-16 (1).png"  width="250px" height="300px" alt="Mountains"/>
+    <figcaption>Nike Max 2</figcaption>
 </figure>
 <figure className="rfigure">
-    <img src="https://picsum.photos/id/287/250/300" alt="Mountains"/>
-    <figcaption>The Day</figcaption>
+    <img src="src\components\Assets\Screenshot_2024-01-21-12-59-01-38 (1).png"  width="250px" height="300px" alt="Mountains"/>
+    <figcaption>Hublot X</figcaption>
 </figure>
 <figure className="rfigure"  >
-    <img src="https://picsum.photos/id/475/250/300" alt="Mountains"/>
-    <figcaption>The Night</figcaption>
+    <img src="src\components\Assets\Screenshot_2024-01-21-12-59-01-39 (1).png"  width="px" height="300px" alt="Mountains"/>
+    <figcaption>Amazon Gift card</figcaption>
 </figure>
 <figure className="rfigure"  >
-    <img src="https://picsum.photos/id/475/250/300" alt="Mountains"/>
-    <figcaption>The Night</figcaption>
+    <img src="src\components\Assets\Screenshot_2024-01-21-12-59-07-74 (1).png"   height="300px" alt="Mountains"/>
+    <figcaption>H&M Gift card</figcaption>
 </figure>
 
 </div>
