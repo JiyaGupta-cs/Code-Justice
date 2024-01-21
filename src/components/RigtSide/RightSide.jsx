@@ -1,6 +1,8 @@
 import React from "react";
 import CustomerReview from "../CustomerReview/CustomerReview";
 import Updates from "../Updates/Updates";
+import Popup from "../Popup/Popup";
+
 import "./RightSide.css";
 
 const RightSide = () => {
@@ -9,7 +11,7 @@ const RightSide = () => {
       
       <div>
         <h3>Upload Your Link</h3>
-        {/* <CustomerReview /> */}
+        <Popup/>
       </div>
       <div>
         <h3>Updates</h3>
