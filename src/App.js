@@ -15,6 +15,7 @@ import {
 import Filters from './components/Filters';
 import Create from './components/Create';
 import Rewards from './components/Rewards';
+import SignUp from './components/SignUp';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Route path='/filters' element={<Filters/>} />
       <Route path='/create' element={<Create/>} />
       <Route path='/rewards' element={<Rewards/>} />
+      <Route path='/signup' element={<SignUp/>} />
       {/* <Route path='/women' element={<ShopCategory banner={women_banner} category="women"/>} />
       <Route path='/kids' element={<ShopCategory banner={kids_banner} category="kids"/>} />
       <Route path='/product' element={<Product/>}>

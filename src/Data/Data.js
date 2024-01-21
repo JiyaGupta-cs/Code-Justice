@@ -62,6 +62,11 @@ export const SidebarData = [
     heading: "AR Filters",
     url:baseUrl + '/filters'
   },
+  {
+    icon: UilUsersAlt,
+    heading: "Profile",
+    url:baseUrl + '/signup'
+  },
   
 ];
 
